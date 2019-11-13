@@ -1,0 +1,7 @@
+---
+ezp_toolbox_search_reindex_options: "" # Change to "--no-purge" if required or any valid options
+
+# We use the same var names as the cbrunnkvist/ansistrano-symfony-deploy roles
+symfony_console_path: "bin/console"
+symfony_env: prod
+symfony_php_path: php

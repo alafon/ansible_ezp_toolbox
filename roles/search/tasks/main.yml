@@ -1,0 +1,9 @@
+---
+- name: "eZ Platform | Re-index"
+  tags: ["reindex"]
+  shell: chdir={{ezp_toolbox_deploy_to}}
+    SYMFONY_ENV={{symfony_env}} APP_ENV={{symfony_env}} {{symfony_php_path}} {{symfony_console_path}} ezplatform:reindex {{ezp_toolbox_search_reindex_options}}
+  register: reindex_result
+
+- name: "eZ Platform | Re-index | Results"
+  debug: var=reindex_result.stdout

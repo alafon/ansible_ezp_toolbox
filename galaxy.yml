@@ -1,0 +1,18 @@
+namespace: "alafon"
+name: "ezp_toolbox"
+version: "1.0.0"
+authors: ["Arnaud Lafon <arnaud.lafon@gmail.com>"]
+description: Ansible tools for eZ Platform
+license: ["MIT"]
+tags:
+  - ezplatform
+  - ezpublish
+  - ansistrano
+  - deployment
+  - symfony
+  - deploy
+readme: "README.md"
+repository: https://github.com/alafon/ansible_ezp_toolbox
+#documentation:
+#homepage:
+issues: https://github.com/alafon/ansible_ezp_toolbox/issues
